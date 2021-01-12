@@ -1,0 +1,30 @@
+div#r-content {
+    overflow-x: hidden!important;
+}
+
+.table_inner {
+    overflow: scroll;
+    height: 700px;
+    width: calc(100vw - 440px);
+}
+
+table {
+    display: table;
+    overflow: auto!important;
+}
+
+td.confirm {
+    position: sticky;
+    left: 0;
+}
+
+table.normal.type3 th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+table.normal.type3 th.confirm {
+    left: 0;
+    z-index: 3;
+}

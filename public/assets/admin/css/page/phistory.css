@@ -1,0 +1,92 @@
+.year-total{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60% !important;
+}
+
+div.select-year{
+    width: 100%;
+    display: table;
+    margin-bottom: 5px;
+}
+
+div.select-year .previous-year{
+    display: table-cell;
+    width: 33%;
+    padding-left: 10px;
+    text-decoration: underline;
+    color: #0070c0;
+}
+div.select-year .current-year{
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+}
+div.select-year .next-year{
+    display: table-cell;
+    width: 33%;
+    padding-right: 10px;
+    text-align: right;
+    text-decoration: underline;
+    color: #0070c0;
+}
+
+tbody tr.year-row:hover td {
+    background: #eee;
+    cursor: pointer;
+}
+tbody tr.year-row:hover  {
+    background: #eee;
+    cursor: pointer;
+}
+
+div.sum-amount {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.sum-amount span.sum-label{
+    display:table-cell;
+    background: #555555;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding: 12px 50px;
+    border: 1px solid #555555;
+}
+
+.sum-amount span.sum-value {
+    display:table-cell;
+    padding: 12px 70px;
+    border: 1px solid #555555;
+}
+
+div.title-month {
+    float: right;
+    margin-bottom: 10px;
+    display: table;
+}
+
+.title-month span.month-label {
+    display:table-cell;
+    background: #555555;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 30px;
+    border: 1px solid #555555;
+
+}
+
+.title-month span.month-value {
+    display:table-cell;
+    padding: 10px 50px;
+    border: 1px solid #555555;
+}
+
+.title-month a.go-year {
+    display: table-cell;
+    padding-right: 20px;
+    text-decoration: underline;
+    color: #0070c0;
+}
