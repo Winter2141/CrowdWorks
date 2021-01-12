@@ -1,6 +1,9 @@
 <?php
+namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class TestUserSeeder extends Seeder
 {
@@ -12,7 +15,6 @@ class TestUserSeeder extends Seeder
     public function run()
     {
         DB::table('users')->truncate();
-        DB::table('user_data')->truncate();
 
         DB::table('users')->insert([
             [
